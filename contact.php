@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Dirk Healy's WEB110 Portal Website</title>
+     <title>Dirk Healy: HTML Elements</title>
   <meta charset="utf-8" />
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
@@ -10,40 +10,30 @@
  </head>
  <body>
      <header>
-     <h1>Dirk Healy's WEB110 Portal Website</h1>
+     <h1>Dirk Healy: Contact me</h1>
      <nav class="topnav" id="myTopnav">
-       <a href="index.html" class="active">Welcome</a>
-       <a href="elements.html">HTML Elements</a>
+       <a href="index.html" >Welcome</a>
+       <a href="elements.html" >HTML Elements</a>
        <a href="big/index.html">BIG</a>
        <a href="aia.html">AIA</a>
        <a href="flowchart.html">Flowchart</a>
        <a href="fp/index.html">Final Project</a>
        <a href="http://w3schools.com" target="_blank">W3 Schools</a>
        <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
-       <a href="contact.php">Contact Dirk Healy</a>
+       <a href="contact.php" class="active">Contact Dirk Healy</a>
        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </nav>
      </header>
      
    <main class="wrapper">
      
-     <img class="desktop" src="images/desktop.jpg" alt="Photo of the warriors" />
+    
        
-     <img class="tablet" src="images/tablet.jpg" alt="Polish movie poster for the movie Reservoir  dogs" />
+       <h2 class="subheader">Contact info</h2>
        
-     <img class="phone" src="images/phone.png" alt="Image of the poster of the exorcist" />
-       
-       <h2 class="subheader">About Me</h2>
-       
-       <p>Hi there! Here is a short list of movies that I really enjoy. My alltime favorite movie is The Warriors, I just love the atmosphere of the movie and it's characters. Another movie that I love is the movie Reservoir dogs by Quinton Tarintino. The characters and drama of this movie are legendary. My final movie for this list is The Exorcist. The use of practical effects and foreboding atmosphere of the film makes for a great viewing experience.</p>
-           
-      <p>I'm interested in web design because of how prevalent the internet is in the modern day. I'm interested in becoming a front end develpor someday.</p>
-
-       <h3>Current Education</h3>
-
-       <p>College Sophomore </p>
-
-       <p>Time til transfer, three qtrs </p>
+     <p> Phone:
+        Email:
+       My imaginary Fax machine: 321-456-6796</p>
 
      <footer>
       <p><small>&copy; 2019 by <a href="contact.php">Contact Dirk Healy </a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
