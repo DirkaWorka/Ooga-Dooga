@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/portal.css" />
   <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+ 
  </head>
  <body>
      <header>
@@ -31,9 +33,25 @@
        
        <h2 class="subheader">Contact info</h2>
        
-     <p> Phone:
-        Email:
-       My imaginary Fax machine: 321-456-6796</p>
+     <p></p>
+         <?php
+        /*
+         * Below are 2 different forms to be re-used       
+         * 
+         * Only use one at a time, comment out the other!       
+         *
+         */
+
+        include 'includes/contact_include.php'; #site keys & code here
+    
+        $toAddress = "healyd197@gmail.com";  //place your/your client's email address here
+        $toName = "Erica G"; //place your client's name here
+        $website = "Diet Busters";  //place NAME of your client's website
+
+        //echo loadContact('simple.php');#demonstrates a simple contact form
+        //echo loadContact('multiple.php');#demonstrates multiple form elements
+
+	?>
 
      <footer>
       <p><small>&copy; 2019 by <a href="contact.php">Contact Dirk Healy </a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
