@@ -1,0 +1,54 @@
+/* BIG Website */
+
+html {
+        background-color:aliceblue;
+}
+
+main.wrapper {
+    background-color:#fff;
+    width:80%;
+    margin:auto;
+    border:1px; 
+}
+h1 a {
+    text-decoration:none;
+}
+
+section {
+    float:left;
+    width:65%;
+    background-color:azure
+}
+aside {
+    float:right;
+    width:34%;
+    background-color:aliceblue
+}
+footer {
+    padding 2em;
+    background-color:aliceblue;
+    text-align:center; 
+    clear:both;
+}
+@media all and (max-width:600px) {
+    
+    main {
+        background-color:aliceblue;
+        width:100%;
+    }
+    section {
+    float:left;
+    width:65%;
+    background-color:aliceblue
+}
+aside {
+    float:right;
+    width:34%;
+    background-color:aliceblue
+}
+footer {
+    padding 2em;
+    background-color:aliceblue;
+    text-align:center; 
+    clear:both;
+}
